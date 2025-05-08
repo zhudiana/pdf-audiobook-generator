@@ -30,8 +30,8 @@ A simple Flask web application that allows users to upload a PDF file, extract t
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/pdf-to-audiobook.git
-cd pdf-to-audiobook
+git clone https://github.com/zhudiana/pdf-audiobook-generator.git
+cd pdf-audiobook-generator
 ```
 
 ### 2. Install dependencies:
@@ -87,10 +87,6 @@ pdf-to-audiobook/
 │   └── player.html        # HTML template for playing and downloading MP3
 └── .gitignore             # To ignore sensitive files (e.g., service_account.json)
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Notes
 
