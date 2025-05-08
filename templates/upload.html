@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero">
+    <h2>Turn Any PDF into a Natural-Sounding Audiobook</h2>
+    <p>Upload your PDF and get an MP3 in seconds. Perfect for listening on the go.</p>
+</section>
+
+<section class="upload-form">
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="pdf_file" accept=".pdf" required>
+        <button type="submit">Convert to Audiobook</button>
+    </form>
+</section>
+{% endblock %}

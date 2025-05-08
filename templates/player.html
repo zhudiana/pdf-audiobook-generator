@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="result">
+    <h2>Your Audiobook is Ready 🎧</h2>
+    <audio controls>
+        <source src="{{ url_for('static', filename='audiobooks/' + filename) }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <a href="{{ url_for('static', filename='audiobooks/' + filename) }}" download>Download MP3</a>
+</section>
+{% endblock %}
